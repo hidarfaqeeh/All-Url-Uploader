@@ -64,9 +64,9 @@ async def echo(bot, update):
                 [
                     [
                         InlineKeyboardButton(
-                            "Audio 🎵", callback_data="ytdl_audio"),
+                            "صوت 🎵", callback_data="ytdl_audio"),
                         InlineKeyboardButton(
-                            "Video 🎬", callback_data="ytdl_video")
+                            "فيديو 🎬", callback_data="ytdl_video")
                     ]
                 ]
             ),
@@ -273,7 +273,7 @@ async def echo(bot, update):
                 "video", format_id, format_ext, randem)
             inline_keyboard.append([
                 InlineKeyboardButton(
-                    "🎬 Video",
+                    "🎬 فيديو",
                     callback_data=(cb_string_video).encode("UTF-8")
                 )
             ])
@@ -283,7 +283,7 @@ async def echo(bot, update):
                 "video", format_id, format_ext)
             inline_keyboard.append([
                 InlineKeyboardButton(
-                    "📁 Document",
+                    "📁 ملف",
                     callback_data=(cb_string_file).encode("UTF-8")
                 )
             ])
