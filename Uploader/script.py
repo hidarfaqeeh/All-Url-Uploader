@@ -45,25 +45,26 @@ I am Powerful Url Uploader Bot
 # give credit to developer
 
     ABOUT_TEXT = """
-<b>♻️ My Name</b> : Url Uploader Bot
+<b>♻️ اسم البوت</b> : بوت تحميل  الملفات  من الروابط
 
-<b>🌀 Channel</b> : <a href="https://t.me/TMWAD">@TMWAD</a>
+<b>🌀 قناة البوت </b> : <a href="https://t.me/yebotats">@yebotats</a>
 
-<b>🌺 Heroku</b> : <a href="https://heroku.com/">Heroku</a>
+<b>🌺 Heruko </b> : <a href="https://heroku.com/">Heroku</a>
 
-<b>📑 Language :</b> <a href="https://www.python.org/">Python 3.10.5</a>
+<b>📑 لغة البوت  :</b> <a href="https://www.python.org/">Python 3.10.5</a>
 
-<b>🇵🇲 Framework :</b> <a href="https://docs.pyrogram.org/">Pyrogram 2.0.30</a>
+<b> حمزة البوت :</b> <a href="https://docs.pyrogram.org/">Pyrogram 2.0.30</a>
 
-<b>👲 Developer :</b> <a href="https://t.me/kinu6">@kinu6</a>
+<b>👲 مطور البوت  :</b> <a href="https://t.me/AKM100YE">@AKM100YE</a>
+
 
 """
 
-    PROGRESS = """
-🔰 Speed : {3}/s\n\n
-🌀 Done : {1}\n\n
-🎥 Tᴏᴛᴀʟ sɪᴢᴇ  : {2}\n\n
-⏳ Tɪᴍᴇ ʟᴇғᴛ : {4}\n\n
+    جاري التحميل = """
+🔰 سرعة التحميل : {3}/s\n\n
+🌀 تم تحميل  : {1}\n\n
+🎥 الحجم الكلي   : {2}\n\n
+⏳ المتبقي  : {4}\n\n
 """
     ID_TEXT = """
 🆔 Your Telegram ID 𝐢𝐬 :- <code>{}</code>
@@ -90,40 +91,40 @@ I am Powerful Url Uploader Bot
 
     START_BUTTONS = InlineKeyboardMarkup(
         [[
-            InlineKeyboardButton('❓ Help', callback_data='help'),
-            InlineKeyboardButton('🦊 About', callback_data='about')
+            InlineKeyboardButton('❓ مساعدة', callback_data='help'),
+            InlineKeyboardButton('🦊 حول البوت', callback_data='about')
         ], [
-            InlineKeyboardButton('📛 Close', callback_data='close')
+            InlineKeyboardButton('📛 اغلاق القائمة', callback_data='close')
         ]]
     )
     HELP_BUTTONS = InlineKeyboardMarkup(
         [[
-            InlineKeyboardButton('🏠 Home', callback_data='home'),
-            InlineKeyboardButton('🦊 About', callback_data='about')
+            InlineKeyboardButton('🏠 الرئيسية', callback_data='home'),
+            InlineKeyboardButton('🦊 حول البوت', callback_data='about')
         ], [
-            InlineKeyboardButton('📛 Close', callback_data='close')
+            InlineKeyboardButton('📛 اغلاق القائمة', callback_data='close')
         ]]
     )
     ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
-            InlineKeyboardButton('🏠 Home', callback_data='home'),
-            InlineKeyboardButton('❓ Help', callback_data='help')
+            InlineKeyboardButton('🏠 الرئيسية', callback_data='home'),
+            InlineKeyboardButton('❓ مساعدة', callback_data='help')
         ], [
-            InlineKeyboardButton('📛 Close', callback_data='close')
+            InlineKeyboardButton('📛 اغلاق القائمة', callback_data='close')
         ]]
     )
     BUTTONS = InlineKeyboardMarkup(
         [[
-            InlineKeyboardButton('📛 Close', callback_data='close')
+            InlineKeyboardButton('📛 اغلاق القائمة', callback_data='close')
         ]]
     )
-    FORMAT_SELECTION = "Now Select the desired formats"
+    FORMAT_SELECTION = "اختار صيغة ودقة الملف الي تشتي احمله لك "
     SET_CUSTOM_USERNAME_PASSWORD = """"""
-    DOWNLOAD_START = "Trying to Download ⌛\n\n <i>{} </i>"
-    UPLOAD_START = "<i>{} </i>\n\n📤 Uploading Please Wait "
-    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 2GB due to Telegram API limitations."
-    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Dᴏᴡɴʟᴏᴀᴅᴇᴅ ɪɴ {} sᴇᴄᴏɴᴅs.\n\nTʜᴀɴᴋs Fᴏʀ Usɪɴɢ Mᴇ\n\nUᴘʟᴏᴀᴅᴇᴅ ɪɴ {} sᴇᴄᴏɴᴅs"
+    DOWNLOAD_START = " بنحاول أحمله لك ياسيدي اصبر عليا شويه ⌛\n\n <i>{} </i>"
+    UPLOAD_START = "<i>{} </i>\n\n📤 حملته والان بنرفعه لك  "
+    RCHD_TG_API_LIMIT = "استغرق التحميل  {} ثانية .\nحجم الملف : {}\nسامحني ياسيدي ماقدرش احمل ملف حجمه اكثر من ٢ جيجا بسبب قيود شركة تلقرام ."
+    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "  الوقت المستغرق للتحميل   {} ثانية .\n\nشكرا لاستخدامي \n\nالوقت المستغرق للرفع  {} ثانية"
     FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "✅ Media cleared succesfully."
     CUSTOM_CAPTION_UL_FILE = " "
-    NO_VOID_FORMAT_FOUND = "ERROR... <code>{}</code>"
-    SLOW_URL_DECED = "Gosh that seems to be a very slow URL. Since you were screwing my home, I am in no mood to download this file. Meanwhile, why don't you try this:==> https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
+    NO_VOID_FORMAT_FOUND = "حدث خطأ ... <code>{}</code>"
+    SLOW_URL_DECED = "اووووه هذا الرابط مبين التحميل منه بطي . واللهه مافي مزاج اجلس انتظر احمله ايش رايك:==> https://shrtz.me/PtsVnf6  وقم بتسريع الرابط وثم ارساله لي واحمله لك بسرعة ."
