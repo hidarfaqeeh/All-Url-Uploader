@@ -26,19 +26,20 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 class Translation(object):
 
     START_TEXT = """
-Hi {} 
+▪︎مرحبا ياسيدي  {} 
 
-I am Powerful Url Uploader Bot
+أنا بوت تحميل الملفات من الروابط
+فقط قم بارسال لي أي رابط ملف أو اي فديو مباشر وسأقوم بإرساله لك هنا 
  
 """
 
     HELP_TEXT = """
 
-# Send me the Google Drive | ytdl | direct links.
+# ارسل للبوت أي رابط ملف مباشر او فديو او يوتيوب وغيره  | ytdl | direct links.
 
-# Select the desired option.
+# بعدين اختيار للصيغه الي تشتي البوت يرسل لك بها الملف.
 
-# Then be relaxed your file will be uploaded soon..
+# ارتاح قليل لحد ما احمل لك الملف المطلوب ..
  
 """
 
